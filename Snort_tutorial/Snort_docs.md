@@ -61,7 +61,7 @@ This Document takes you step by step in configuring Snort2 as an Intrusion Preve
 
 # Dependencies   
 Most software (snort included) depend on some external libraries and packages that developpers reuse for specific purposes in order to not rewrite code that has been already written by someone else.  
-Here is a list of all the depedencies needed for Snort:
+Here is a list of all the dependencies needed for Snort:
 - build-essential
 - flex
 - bison
@@ -294,7 +294,8 @@ sudo systemctl start snort.service
 ```  
 
 if everything goes fine you should see the following output after executing `systemctl status snort.service`:  
- ```
+
+```
  snort.service - Snort  IPS Daemon
      Loaded: loaded (/lib/systemd/system/snort.service; enabled; vendor preset: enabled)
      Active: active (running) since Tue 2022-07-12 13:17:57 UTC; 1min 31s ago
@@ -303,7 +304,7 @@ if everything goes fine you should see the following output after executing `sys
      Memory: 46.2M
         CPU: 169ms
 
- ```  
+```  
 
 ## Adding iptables NFQ Rules
 ### Why do we need to add nfq rules?
