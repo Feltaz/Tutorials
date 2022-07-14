@@ -241,7 +241,7 @@ var BLACK_LIST_PATH /etc/snort/rules
 
 ```
 
-Then we add these in the configuration file located at /etc/snort/  In the second second section related to the Decoder configuration in order to use snort with nfq:   
+Then we add these in the configuration file located at /etc/snort/  In the second section related to the Decoder configuration in order to use snort with nfq:   
 ``` 
  config daq: nfq
  config daq_mode: inline
