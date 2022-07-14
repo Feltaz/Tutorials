@@ -682,7 +682,7 @@ To generate and alert we first need to know the gid for the specific preprocesso
 
 Sfportscan detect a wide variety of scan types so we need to specify which type of scan  we need to "catch" with our preprocessor rule.  
 
-here as an example of a preproc rule:  
+here is an example of a preproc rule:  
 ```
 alert ( msg:"port scan happend";sid:1;gid:122;rev: 1; metadata: rule-type preproc;classtype: network-scan;)
 ```  
